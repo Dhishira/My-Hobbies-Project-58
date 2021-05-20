@@ -65,6 +65,18 @@ a {
     text-shadow: 2px 2px grey;
     color: aquamarine;
 }
-#Inspiration a{
+
+#Inspiration a {
     font-size: 22px;
+}
+
+#Inspiration img {
+    height: 250px;
+    width: 250px;
+    transition: transform .s;
+    border: 1px solid red;
+}
+
+#Inspiration img:hover{
+    transform: scale(0.9);
 }
